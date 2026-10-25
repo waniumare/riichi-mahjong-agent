@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "$(dirname "$0"
+cd "$(dirname "$0")"
 P="python3 -W ignore run_eval.py"
 # A: final evaluation, fresh seeds 0..39999
 for a in pushall ruleopp; do $P $a 40000 results/final_$a.pkl; done
