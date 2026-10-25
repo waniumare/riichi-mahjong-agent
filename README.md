@@ -2,6 +2,8 @@
 
 A from-scratch Riichi Mahjong engine and agent that decides when to push or fold by combining Monte Carlo search with an opponent model fitted to simulated data.
 
+![Agent comparison](results/fig1_agents.png)
+
 **Headline results** (40,000 hands per agent, identical deals, paired comparisons):
 - Monte Carlo search (v2) halved the deal-in rate vs. the rule-based baseline
   (15.6% → 7.6%) and had the highest mean score (+13.2 ± 16.0 points/hand paired).
